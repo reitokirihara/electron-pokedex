@@ -1,0 +1,59 @@
+.title {
+    display: flex;
+    height: 22px;
+    font-size: 14px;
+    background-color: red;
+    -webkit-app-region: drag;
+}
+
+.title button {
+    display: block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    line-height: 0;
+    padding: 0;
+    text-align: center;
+    border: 0;
+}
+
+.title button:focus {
+    outline: 0;
+}
+
+.title nav {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   text-align: center;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+ Helvetica, Arial, sans-serif,
+ "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+/* .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 22px;
+    -webkit-app-region: drag;
+} */
+
+#pokeImg {
+    image-rendering: pixelated
+}
+
+.information {
+    display: flex;
+}
+
+.wordInformation {
+}
